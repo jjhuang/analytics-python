@@ -7,9 +7,9 @@ import atexit
 from dateutil.tz import tzutc
 from six import string_types
 
-from analytics.utils import guess_timezone, clean
-from analytics.consumer import Consumer
-from analytics.version import VERSION
+from segmentio.utils import guess_timezone, clean
+from segmentio.consumer import Consumer
+from segmentio.version import VERSION
 
 try:
     import queue

@@ -3,8 +3,8 @@ import unittest
 import time
 import six
 
-from analytics.version import VERSION
-from analytics.client import Client
+from segmentio.version import VERSION
+from segmentio.client import Client
 
 
 class TestClient(unittest.TestCase):
